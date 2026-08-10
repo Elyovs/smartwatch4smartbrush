@@ -17,7 +17,8 @@ Furthermore this folder also contains the manually segmented data of each sessio
 ### `data/3`
 new_train_setx.csv is the same data collected as in `data/2`. However different segmentation is done, in which **for each session**, the **number of data points** for each region is the **same**.
 
-## Smartwatch
+
+## ⌚ Smartwatch
 Documentation on some of the explored options is [here](https://nusu-my.sharepoint.com/:w:/g/personal/e1093041_u_nus_edu/IQA80aixHrdtSKUHw5Ci7PQGAZ-BINweqd0xKDqK3OFHdyk?e=nNjV4Q)
 
 ESP32-S3 Development Board with round LCD was initially chosen, however overheat on the LCD flex cable occured and eventually broke. A similar model with a proper protection is then used. The new and current smartwatch is using ESP32-S3 with a 6-axis IMU (QMI8658) built in. Link is [here](https://www.aliexpress.com/item/1005009920287161.html?spm=a2g0o.productlist.main.17.240fxpxNxpxNWI&algo_pvid=23ef4a7b-5007-4f95-8741-d87a0d13ddf4&algo_exp_id=23ef4a7b-5007-4f95-8741-d87a0d13ddf4-14&pdp_ext_f=%7B%22order%22%3A%2239%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21SGD%2139.91%2139.91%21%21%21207.32%21207.32%21%402101529317761839700308726ea460%2112000050582108663%21sea%21SG%216251212718%21X%211%210%21n_tag%3A-29919%3Bd%3A1f1ecc6f%3Bm03_new_user%3A-29895&curPageLogUid=HPFg8PMsMM3k&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005009920287161%7C_p_origin_prod%3A#nav-specification)
