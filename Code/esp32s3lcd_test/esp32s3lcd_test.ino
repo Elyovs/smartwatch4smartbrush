@@ -10,8 +10,8 @@ IMUdata gyr;
 // WiFi Configuration
 const char* ssid = "LAPTOP-5FMMIAKQ 5454";
 const char* password = "782%7yQ8";
-// const char* ip = "192.168.137.1";
-const char* ip = "172.31.219.178";
+const char* ip = "192.168.0.68";
+// const char* ip = "172.31.219.178";
 const int port = 4210;
 
 WiFiUDP udp;

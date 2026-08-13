@@ -4,7 +4,7 @@ import csv
 local_ip = "0.0.0.0"
 # local_ip = "192.168.137.222"
 local_port = 4210
-filename = "new_test_set1.csv"
+filename = "new_train_set10.csv"
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 sock.bind((local_ip, local_port))
