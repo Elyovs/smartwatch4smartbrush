@@ -12,9 +12,9 @@ new_train_setx.csv contains data from sessions of brushing with pause (time inco
 
 _order of brushing: front buccal -> left buccal -> right buccal ->left occlusal -> right occlusal -> left lingual -> front lingual -> right lingual_
 
-BUCCAL -> facing the cheecks 
-LINGUAL -> part on the inside (facing tongue) 
-OCCLUSAL -> biting area
+BUCCAL -> facing the cheecks <br/>
+LINGUAL -> part on the inside (facing tongue) <br/>
+OCCLUSAL -> biting area<br/>
 
 Furthermore this folder also contains the manually segmented data of each session into each region, with the transition movement completely removed.
 
