@@ -27,7 +27,7 @@ all_segmented_files = [
 ]
 
 # TARGETING THE SPECIFIC FILE
-test_file = "../data/3/new_train_set2.csv" 
+test_file = "../data/3/new_train_set1.csv" 
 sensor_cols = ['ax', 'ay', 'az', 'gx', 'gy', 'gz']
 expected_sequence = ["front_buccal", "left_buccal", "right_buccal", "left_occlusal", "right_occlusal", "left_lingual", "front_lingual", "right_lingual"]
 
