@@ -23,11 +23,17 @@ all_segmented_files = [
     # Session 3
     "../data/3/upper_front_buccal_s3.csv", "../data/3/upper_left_buccal_s3.csv", "../data/3/upper_right_buccal_s3.csv", "../data/3/upper_left_occlusal_s3.csv", "../data/3/upper_right_occlusal_s3.csv", "../data/3/upper_left_lingual_s3.csv", "../data/3/upper_front_lingual_s3.csv", "../data/3/upper_right_lingual_s3.csv",
     # Session 4
-    "../data/3/upper_front_buccal_s4.csv", "../data/3/upper_left_buccal_s4.csv", "../data/3/upper_right_buccal_s4.csv", "../data/3/upper_left_occlusal_s4.csv", "../data/3/upper_right_occlusal_s4.csv", "../data/3/upper_left_lingual_s4.csv", "../data/3/upper_front_lingual_s4.csv", "../data/3/upper_right_lingual_s4.csv"
+    "../data/3/upper_front_buccal_s4.csv", "../data/3/upper_left_buccal_s4.csv", "../data/3/upper_right_buccal_s4.csv", "../data/3/upper_left_occlusal_s4.csv", "../data/3/upper_right_occlusal_s4.csv", "../data/3/upper_left_lingual_s4.csv", "../data/3/upper_front_lingual_s4.csv", "../data/3/upper_right_lingual_s4.csv",
+    # Session 5
+    "../data/3/upper_front_buccal_s5.csv", "../data/3/upper_left_buccal_s5.csv", "../data/3/upper_right_buccal_s5.csv", "../data/3/upper_left_occlusal_s5.csv", "../data/3/upper_right_occlusal_s5.csv", "../data/3/upper_left_lingual_s5.csv", "../data/3/upper_front_lingual_s5.csv", "../data/3/upper_right_lingual_s2.csv",
+    # Session 6
+    "../data/3/upper_front_buccal_s6.csv", "../data/3/upper_left_buccal_s6.csv", "../data/3/upper_right_buccal_s6.csv", "../data/3/upper_left_occlusal_s6.csv", "../data/3/upper_right_occlusal_s6.csv", "../data/3/upper_left_lingual_s6.csv", "../data/3/upper_front_lingual_s6.csv", "../data/3/upper_right_lingual_s6.csv",
+    # Session 7
+    "../data/3/upper_front_buccal_s7.csv", "../data/3/upper_left_buccal_s7.csv", "../data/3/upper_right_buccal_s7.csv", "../data/3/upper_left_occlusal_s7.csv", "../data/3/upper_right_occlusal_s7.csv", "../data/3/upper_left_lingual_s7.csv", "../data/3/upper_front_lingual_s7.csv", "../data/3/upper_right_lingual_s7.csv"
 ]
 
 # TARGETING THE SPECIFIC FILE
-test_file = "../data/3/new_train_set10.csv"
+test_file = "../data/3/new_train_set8.csv"
 sensor_cols = ['ax', 'ay', 'az', 'gx', 'gy', 'gz']
 expected_sequence = ["front_buccal", "left_buccal", "right_buccal", "left_occlusal", "right_occlusal", "left_lingual", "front_lingual", "right_lingual"]
 
